@@ -1,0 +1,207 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		701B5DF81D8478B500E6D330 /* spritedemo.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; path = spritedemo.s; sourceTree = "<group>"; };
+		701B5DF91D847ADA00E6D330 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		701B5DFB1D847B4100E6D330 /* hgrtableY.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; path = hgrtableY.s; sourceTree = "<group>"; };
+		701B5DFC1D847B6D00E6D330 /* SpriteGenerator.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = SpriteGenerator.py; sourceTree = "<group>"; };
+		701B5DFD1D847C3900E6D330 /* spritegen0.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; path = spritegen0.s; sourceTree = "<group>"; };
+		701B5DFE1D847C3900E6D330 /* spritegen1.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; path = spritegen1.s; sourceTree = "<group>"; };
+		701B5DFF1D847C3900E6D330 /* spritegen2.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; path = spritegen2.s; sourceTree = "<group>"; };
+		701B5E001D847C3900E6D330 /* spritegen3.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; path = spritegen3.s; sourceTree = "<group>"; };
+		701B5E011D847D9A00E6D330 /* hgrtableX.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; path = hgrtableX.s; sourceTree = "<group>"; };
+		701B5E021D847ED300E6D330 /* macros.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; path = macros.s; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		701B5DED1D84788F00E6D330 = {
+			isa = PBXGroup;
+			children = (
+				701B5DF91D847ADA00E6D330 /* Makefile */,
+				701B5DFC1D847B6D00E6D330 /* SpriteGenerator.py */,
+				701B5E021D847ED300E6D330 /* macros.s */,
+				701B5DF81D8478B500E6D330 /* spritedemo.s */,
+				701B5E011D847D9A00E6D330 /* hgrtableX.s */,
+				701B5DFB1D847B4100E6D330 /* hgrtableY.s */,
+				701B5DFD1D847C3900E6D330 /* spritegen0.s */,
+				701B5DFE1D847C3900E6D330 /* spritegen1.s */,
+				701B5DFF1D847C3900E6D330 /* spritegen2.s */,
+				701B5E001D847C3900E6D330 /* spritegen3.s */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		701B5DF21D84788F00E6D330 /* SpriteGen */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 701B5DF51D84788F00E6D330 /* Build configuration list for PBXLegacyTarget "SpriteGen" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			dependencies = (
+			);
+			name = SpriteGen;
+			passBuildSettingsInEnvironment = 1;
+			productName = SpriteGen;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		701B5DEE1D84788F00E6D330 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Quinn Dunki";
+				TargetAttributes = {
+					701B5DF21D84788F00E6D330 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 701B5DF11D84788F00E6D330 /* Build configuration list for PBXProject "SpriteGen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 701B5DED1D84788F00E6D330;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				701B5DF21D84788F00E6D330 /* SpriteGen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		701B5DF31D84788F00E6D330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		701B5DF41D84788F00E6D330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+			};
+			name = Release;
+		};
+		701B5DF61D84788F00E6D330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUGGING_SYMBOLS = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		701B5DF71D84788F00E6D330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		701B5DF11D84788F00E6D330 /* Build configuration list for PBXProject "SpriteGen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				701B5DF31D84788F00E6D330 /* Debug */,
+				701B5DF41D84788F00E6D330 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		701B5DF51D84788F00E6D330 /* Build configuration list for PBXLegacyTarget "SpriteGen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				701B5DF61D84788F00E6D330 /* Debug */,
+				701B5DF71D84788F00E6D330 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 701B5DEE1D84788F00E6D330 /* Project object */;
+}
